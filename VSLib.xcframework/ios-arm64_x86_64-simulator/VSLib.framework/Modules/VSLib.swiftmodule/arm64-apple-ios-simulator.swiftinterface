@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VSLib
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import NantesModifiedLabelkit
+import Swift
+@_exported import VSLib
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers open class CustomLabelHome {
+  open func getNantesLabel() -> UIKit.UIView
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CustomPubLabel {
+  open func getNantesLabel() -> UIKit.UIView
+  @objc deinit
+}

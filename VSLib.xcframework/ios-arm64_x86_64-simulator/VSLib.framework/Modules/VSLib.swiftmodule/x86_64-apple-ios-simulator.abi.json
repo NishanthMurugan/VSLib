@@ -1,0 +1,173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VSLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NantesModifiedLabelkit",
+        "printedName": "NantesModifiedLabelkit",
+        "declKind": "Import",
+        "moduleName": "VSLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomLabelHome",
+        "printedName": "CustomLabelHome",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getNantesLabel",
+            "printedName": "getNantesLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5VSLib15CustomLabelHomeC09getNantesC0So6UIViewCyF",
+            "mangledName": "$s5VSLib15CustomLabelHomeC09getNantesC0So6UIViewCyF",
+            "moduleName": "VSLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5VSLib15CustomLabelHomeC",
+        "mangledName": "$s5VSLib15CustomLabelHomeC",
+        "moduleName": "VSLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomPubLabel",
+        "printedName": "CustomPubLabel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getNantesLabel",
+            "printedName": "getNantesLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5VSLib14CustomPubLabelC09getNantesD0So6UIViewCyF",
+            "mangledName": "$s5VSLib14CustomPubLabelC09getNantesD0So6UIViewCyF",
+            "moduleName": "VSLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5VSLib14CustomPubLabelC",
+        "mangledName": "$s5VSLib14CustomPubLabelC",
+        "moduleName": "VSLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 27,
+      "value": "\"https:\/\/www.instacart.com\""
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 696,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/Developement\/development\/x13\/MyXCframeTest\/VSLib\/CustomLabelHome.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 27,
+      "value": "\"https:\/\/www.instacart.com\""
+    }
+  ]
+}
